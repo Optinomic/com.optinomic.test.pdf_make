@@ -21,15 +21,15 @@ website = http://www.optinomic.com/
 __opapp_include(readme.md)
 
 [template pdf 6 9]
-__opapp_include(../lib/html/optinomic/templates/pdfmake.html)
+__opapp_include(lib/html/optinomic/templates/pdfmake.html)
 __opapp_include(templates/pdf.html)
 
 
 [javascript]
-__opapp_include(../lib/js/optinomic/data_module/optinomic_app_api.m4)
+__opapp_include(lib/js/optinomic/data_module/optinomic_app_api.m4)
 __opapp_include(main.m4)
 
 
 [css]
-__opapp_include(../lib/css/set/optinomic_material_bootstrap.m4)
+__opapp_include(lib/css/set/optinomic_material_bootstrap.m4)
 __opapp_include(style.css)
